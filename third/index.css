@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;  
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: white;
+    height: 100vh;
+    width: 100vw;
+    position:relative
+} 
+
+header{
+    height:15%;
+    background: rgb(212, 212, 212);
+    width: 100vw;
+    padding: 10px;
+
+}
+
+#white{
+    height:25%;
+    width: 100%;
+    background: white;
+    position: absolute;
+    bottom:60%;
+    padding: 40px;
+
+
+}
+p{
+    font-size: 20px;
+}
+.box{
+    position: relative;
+    height: 100%;
+    width: 100px;
+    background: blue;
+    margin-left: 10px;
+}
+
+.stripe{
+    height:15%;
+    width: 100%;
+    position: absolute;
+   
+}
+#a{
+    bottom:0;
+    background: rgb(221, 221, 56);
+}
+
+#b{
+    bottom:15%;
+    background: rgb(195, 236, 162);
+}
+#c{
+    bottom:30%;
+    background: aquamarine;
+}
+#d{
+    bottom:45%;
+    background: blue;
+}
